@@ -1,8 +1,8 @@
-import './styles/global.css'
+import { SignIn } from './pages/SignIn/SignIn'
 
 export function App() {
 
   return (
-    <h1>Hello World</h1>
+    <SignIn />
   )
 }
